@@ -18,7 +18,6 @@ connectDB();
 app.use('/api/heroes', heroRoutes);
 app.use('/api/auth', authRoutes);
 
-// Seed la base de données au démarrage (optionnel, à commenter après le premier lancement)
 seedDatabase();
 
 app.listen(PORT, () => {

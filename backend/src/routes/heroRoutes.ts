@@ -1,4 +1,3 @@
-console.log('📌 CHEMIN DU CONTROLLER :', require.resolve('../controllers/heroController'));
 import express from 'express';
 import { authMiddleware } from '../middleware/authMiddleware';
 import { upload } from '../middleware/uploadMiddleware';
